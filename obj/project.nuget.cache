@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gAbRVAdar7tVbQ2CniuBKhuqog9Gzr1tKAxM4hSsJFly6oh6B/jad1bREpNelZqrJe6O3gWfM/dI01cgla/8cQ==",
+  "success": true,
+  "projectFilePath": "D:\\Freelance\\ConsumeRestApiInMVC\\ConsumeRestApiInMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\raghu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

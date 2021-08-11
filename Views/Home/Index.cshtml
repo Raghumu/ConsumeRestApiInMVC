@@ -1,0 +1,28 @@
+﻿@model List<ConsumeRestApiInMVC.Models.User>
+
+<div>
+    <hr />
+    <div>
+        <table style="width:400px">
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Email
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
