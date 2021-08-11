@@ -23,11 +23,11 @@ namespace ConsumeRestApiInMVC.Controllers
         public IActionResult Index()
         {
             var userIds = new int[] { 1, 3, 10 };
-            var users = GetEmailIds(userIds).Result;
+            var users = GetUsers(userIds).Result;
             return View(users);
         }
 
-        static async Task<List<User>> GetEmailIds(int[] userIds)
+        static async Task<List<User>> GetUsers(int[] userIds)
         {
             var users = new List<User>();
             string baseUri = "https://www.yourapiurlgoeshere.com/api/";
